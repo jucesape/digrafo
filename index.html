@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+<head>
+<!-- Aqui aparece el titulo de la pestaña en el navegador y otros parametros... -->
+  <title>DIGRAFO</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- en body aparece todo lo que muestra la pagina web... -->
+  <div class="container">
+<!-- Inicio del Contenedor manejado por Bootstrap -->
+    <div class="row">
+      <div class="col-lg-12">
+	  <!-- Se muestra detalles del problema... -->
+        <center><h2>EJERCICIO CORTE 1</h2></center>
+		<center><h3>DIGRAFOS</h3></center>
+<hr color="blue" size=3>
+		<h5>Fecha de Entrega...</h5>
+		<h5>Nombre y Apellido del Alumno...</h5>
+		<h5>Cedula de Identidad...</h5>
+		<h5>Seccion...</h5>
+<hr color="blue" size=3>
+        <h5><P>
+		Un Digrafo es un Grafo que tiene direcciones relaciones
+		entre sus vértices. <br>
+		Es un Grafo direccionado.
+		Un grafo dirigido o digrafo es un tipo de grafo en el 
+		cual las aristas tienen un sentido definido,​ a diferencia 
+		del grafo no dirigido, en el cual las aristas son 
+		relaciones simétricas y no apuntan en ningún sentido.
+		</P></h5>
+      </div>
+    </div>
+<hr color="blue" size=3>
+    <hr>
+	
+    <div class="row">
+	<!-- Se muestra la imagen del digrafo... -->
+      <div class="col-2">
+      </div>
+      <div class="col-lg-8">
+        <h4>1.- Imagen del Digrafo</h4>
+        <center><img src="digrafo.jpg"></center>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+	<!-- Se muestran los vertices del digrafo... -->
+      <div class="col-2">
+      </div>
+      <div class="col-8">
+	  <h4>2.- Definir Vértices...Son tres (3) vértices:</h4>
+        <p>
+    1. Vértice 1 (V1): Inicio<br>
+    2. Vértice 2 (V2): Intermedio<br>
+    3. Vértice 3 (V3): Final<br>
+		</p>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+	
+    <div class="row">
+	<!-- Se muestran las direcciones de las relaciones entre los vertices del digrafo... -->
+      <div class="col-2">
+      </div>
+      <div class="col-8">
+        <h4>3.- Definir Direcciones:</h4>
+        <p>
+    • Dirección 1 (D1): de V1 a V2<br>
+    • Dirección 2 (D2): de V2 a V1<br>
+    • Dirección 3 (D3): de V2 a V3<br>
+    • Dirección 4 (D4): de V1 a V3<br>
+		</p>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+    <div class="row">
+	<!-- Se muestran el peso de las relaciones entre los vertices del digrafo... -->
+      <div class="col-2">
+      </div>
+      <div class="col-8">
+        <h4>4.- Definir peso del Valor de las Relaciones:</h4>
+        <p>
+    • Peso 1 (P1) de D1:  2<br> 
+    • Peso 2 (P2) de D2:  3<br>
+    • Peso 3 (P3) de D3:  1<br>
+    • Peso 4 (P4) de D4:  4<br>
+		</p>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+    <div class="row">
+	<!-- Se muestran el peso de las relaciones entre los vertices del digrafo... -->
+      <div class="col-2">
+      </div>
+      <div class="col-8">
+        <h4>5.- Definir variables en JavaScript:</h4>
+
+<script type="text/javascript">
+    
+   
+    var V1=1,V2=2,V3=3;
+	var D1=12,D2=21,D3=23,D4=13;
+	var P1=2,P2=3,P3=1,P4=4;
+	
+    document.write("V1=",V1,", V2=",V2,", V3=",V3,"<br>");
+    document.write("D1=",D1,", D2=",D2,", D3=",D3,", D4=",D4,"<br>");
+    document.write("P1=",P1,", P2=",P2,", P3=",P3,", P4=",P4,"<br>");
+	
+	var Suma=P1+P2+P3+P4;
+	document.write("Total de Pesos= ",Suma, "<br>");
+	var Prom=Suma/4;
+	document.write("Promedio de Pesos= ",Prom, "<br>");
+</script>
+
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+	<!-- Fin del Contenedor manejado por Bootstrap -->
+  </div> 
+
+</body>
+
+</html>
